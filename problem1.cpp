@@ -7,12 +7,12 @@ int main(void) {
 
     const double t_start = 0.0;
     const double t_end = 5.0;
-    const double delta_t = 0.01;
+    const double DT = 0.01;
     const double t_ail_stop = 2.0;
 
-    const double p_0 = 1.0;
+    const double p_0 = 1.0;         // Initial conditions
 
-    std::vector<double> ts = Arange(t_start, t_end, delta_t);
+    std::vector<double> ts = Arange(t_start, t_end, DT);
     std::cout << "ts[0]: " << ts[0] << "\n";
     std::cout << "len(ts): " << ts.size() << "\n";
     std::vector<double> ps(ts.size(), 0.0);
@@ -24,8 +24,8 @@ int main(void) {
         return L_p * p + L_delta * Dirac(t);
     };
 
-    auto step = [delta_t, &p_prime] (const double p, const double t) {
-        double p_new = p + delta_t * p_prime(p, t);
+    auto step = [DT, &p_prime] (const double p, const double t) {
+        double p_new = p + DT * p_prime(p, t);
         std::cout << "Rate at time " << t << "s: " << p_new << " rad/s\n";
         return p_new;
     };
