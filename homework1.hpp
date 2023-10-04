@@ -21,7 +21,7 @@ double gradient_sigmoid(double z);
 double gradient_cost(double y_predict, double y);
 
 // Problem 7
-double gradient_weights(const std::vector<double>& w, const std::vector<double>& x, double y);
-double update_weights(const std::vector<double>& w, const std::vector<double>& dw, double alpha);
+std::vector<double> gradient_weights(const std::vector<double>& w, const std::vector<double>& x, double y);
+std::vector<double> update_weights(const std::vector<double>& w, const std::vector<double>& dw, double alpha);
 
 // Problem 8

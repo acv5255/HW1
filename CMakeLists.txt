@@ -29,3 +29,11 @@ add_executable(
 add_executable(
     problem7 problem7.cpp homework1.hpp homework1.cpp
 )
+
+add_executable(
+    problem8 problem8.cpp homework1.hpp homework1.cpp
+)
+
+add_executable(
+    problem9 problem9.cpp homework1.hpp homework1.cpp
+)
