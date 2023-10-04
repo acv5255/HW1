@@ -82,5 +82,29 @@
   "command": "/usr/bin/g++ -g -std=gnu++20 -o CMakeFiles/problem7.dir/homework1.cpp.o -c /home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/homework1.cpp",
   "file": "/home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/homework1.cpp",
   "output": "CMakeFiles/problem7.dir/homework1.cpp.o"
+},
+{
+  "directory": "/home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/build",
+  "command": "/usr/bin/g++ -g -std=gnu++20 -o CMakeFiles/problem8.dir/problem8.cpp.o -c /home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/problem8.cpp",
+  "file": "/home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/problem8.cpp",
+  "output": "CMakeFiles/problem8.dir/problem8.cpp.o"
+},
+{
+  "directory": "/home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/build",
+  "command": "/usr/bin/g++ -g -std=gnu++20 -o CMakeFiles/problem8.dir/homework1.cpp.o -c /home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/homework1.cpp",
+  "file": "/home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/homework1.cpp",
+  "output": "CMakeFiles/problem8.dir/homework1.cpp.o"
+},
+{
+  "directory": "/home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/build",
+  "command": "/usr/bin/g++ -g -std=gnu++20 -o CMakeFiles/problem9.dir/problem9.cpp.o -c /home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/problem9.cpp",
+  "file": "/home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/problem9.cpp",
+  "output": "CMakeFiles/problem9.dir/problem9.cpp.o"
+},
+{
+  "directory": "/home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/build",
+  "command": "/usr/bin/g++ -g -std=gnu++20 -o CMakeFiles/problem9.dir/homework1.cpp.o -c /home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/homework1.cpp",
+  "file": "/home/andrew/Documents/School/Grad/Fall2023/AERSP424/HW/HW1/homework1.cpp",
+  "output": "CMakeFiles/problem9.dir/homework1.cpp.o"
 }
 ]
