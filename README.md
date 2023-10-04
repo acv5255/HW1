@@ -1,4 +1,4 @@
-# AERSP424 Coding Homework 1
+# AERSP424 Coding Homework 1 - Andrew Vierbicher
 This file contains files for problems 1-9 including a header/implementation file pair
 
 ## Building information
